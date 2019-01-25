@@ -1,12 +1,46 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import * as emailjs from 'emailjs-com';
 
 import pic01 from '../images/pic01.jpg';
-import pic02 from '../images/pic02.jpg';
-import pic03 from '../images/pic03.jpg';
 
-class Main extends React.Component {
+class Main extends Component {
+	state = {
+		name: '',
+		email: '',
+		message: '',
+		redirect: false
+	};
+
+	onChange = ( event ) => {
+		this.setState({ [event.target.name]: event.target.value });
+	};
+
+	submitHandler = ( event ) => {
+		event.preventDefault();
+
+		const formParams = {
+			fromName: this.state.name,
+			fromEmail: this.state.email,
+			toEmail: 'andrew.demers91@gmail.com',
+			message: this.state.message
+		};
+
+		emailjs.send('mailgun', 'my_portfolio_template', formParams, 'user_uABJMRa0kF9MP0dQp0ik9')
+			.then(res => {
+				console.log('Success');
+			})
+			.catch(err => console.error('Failed to send feedback. Error: ', err));
+	};
+
+	onClickHandler = () => {
+		this.setState({ redirect: true });
+	};
+
 	render() {
+		if (this.state.redirect) {
+		}
+		const { name, email, message } = this.state;
 
 		let close = <div className="close" onClick={() => {
 			this.props.onCloseArticle();
@@ -32,7 +66,6 @@ class Main extends React.Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
-					<p>
 						<h4>Lead Engineer @ Midas Green Tech</h4>
 						Jan 2018 - Dec 2018
 						<ul>
@@ -52,7 +85,7 @@ class Main extends React.Component {
 								Oversaw the company's most expensive contract ($10 million+)
 							</li>
 							<li>
-								 Provided project leadership to eight employees for project production
+								Provided project leadership to eight employees for project production
 							</li>
 						</ul>
 
@@ -66,7 +99,6 @@ class Main extends React.Component {
 								Used VBA to automatically import and organize large amount of dredge data for analysis
 							</li>
 						</ul>
-					</p>
 					{close}
 				</article>
 
@@ -74,31 +106,35 @@ class Main extends React.Component {
 				         className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Projects</h2>
-					<p>
 						<h4>Build-a-Burger</h4>
 						<ul className="icons">
 							<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
-							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target ="_blank" className="icon fa-external-link"><span
+							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target="_blank"
+							       className="icon fa-external-link"><span
 								className="label">Live Version</span></a></li>
-							<li><a href="https://github.com/demersaj/build-a-burger" target ="_blank" className="icon fa-github"><span
+							<li><a href="https://github.com/demersaj/build-a-burger" target="_blank"
+							       className="icon fa-github"><span
 								className="label">Github</span></a></li>
 						</ul>
 
 						<h4>Small Shell</h4>
 						<ul className="icons">
-							<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O processing</li>
-							<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target ="_blank" className="icon fa-github"><span
+							<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O
+								processing
+							</li>
+							<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target="_blank"
+							       className="icon fa-github"><span
 								className="label">Github</span></a></li>
 						</ul>
 
 						<h4>Cyrptocurrency Price Tracker</h4>
 						<ul className="icons">
 							<li>Live alerts of cryptocurrency prices using Python for desktop notifications</li>
-							<br/>
-							<li><a href="https://github.com/demersaj/Crypto-alert" target ="_blank" className="icon fa-github"><span
+							<br />
+							<li><a href="https://github.com/demersaj/Crypto-alert" target="_blank"
+							       className="icon fa-github"><span
 								className="label">Github</span></a></li>
 						</ul>
-					</p>
 					{close}
 				</article>
 
@@ -106,32 +142,53 @@ class Main extends React.Component {
 				         className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Contact</h2>
-					<form method="post" action="#">
+					<form onSubmit={this.submitHandler}>
 						<div className="field half first">
 							<label htmlFor="name">Name</label>
-							<input type="text" name="name" id="name" />
+							<input
+								type="text"
+								name="name"
+								id="name"
+								value={name}
+								onChange={this.onChange} />
 						</div>
 						<div className="field half">
 							<label htmlFor="email">Email</label>
-							<input type="text" name="email" id="email" />
+							<input
+								type="text"
+								name="email"
+								id="email"
+								value={email}
+								onChange={this.onChange} />
 						</div>
 						<div className="field">
 							<label htmlFor="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
+							<textarea
+								name="message"
+								id="message"
+								rows="4"
+								value={message}
+								onChange={this.onChange}>
+							</textarea>
 						</div>
 						<ul className="actions">
-							<li><input type="submit" value="Send Message" className="special" /></li>
+							<li><input
+								type="submit"
+								value="Send Message"
+								className="special" /></li>
 							<li><input type="reset" value="Reset" /></li>
 						</ul>
 					</form>
 					<ul className="icons">
-						<li><a href="https://www.linkedin.com/in/andrew-demers/" target ="_blank" className="icon fa-linkedin"><span
+						<li><a href="https://www.linkedin.com/in/andrew-demers/" target="_blank"
+						       className="icon fa-linkedin"><span
 							className="label">Twitter</span></a></li>
-						<li><a href="https://github.com/demersaj" target ="_blank" className="icon fa-github"><span
+						<li><a href="https://github.com/demersaj" target="_blank" className="icon fa-github"><span
 							className="label">Github</span></a></li>
-						<li><a href="mailto: andrew.demers91@gmail.com" target ="_blank" className="icon fa-envelope"><span
+						<li><a href="mailto: andrew.demers91@gmail.com" target="_blank"
+						       className="icon fa-envelope"><span
 							className="label">Email</span></a></li>
-						<li><a href="https://www.instagram.com/druskeyy/" target ="_blank" className="icon fa-instagram"><span
+						<li><a href="https://www.instagram.com/druskeyy/" target="_blank" className="icon fa-instagram"><span
 							className="label">Instagram</span></a></li>
 
 					</ul>

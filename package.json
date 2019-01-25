@@ -4,6 +4,8 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "emailjs": "^2.2.0",
+    "emailjs-com": "^2.3.2",
     "gatsby": "^2.0.76",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
@@ -12,7 +14,8 @@
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "react-router": "^4.3.1"
   },
   "keywords": [
     "gatsby"
