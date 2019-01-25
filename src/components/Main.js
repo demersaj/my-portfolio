@@ -45,14 +45,14 @@ class Main extends React.Component {
 								cryptocurrencies
 							</li>
 						</ul>
-						<h4>Project Mangager @ Scientific Machine and Welding</h4>
+						<h4>Project Manager @ Scientific Machine and Welding</h4>
 						July 2017 - Dec. 2017
 						<ul>
 							<li>
 								Oversaw the company's most expensive contract ($10 million+)
 							</li>
 							<li>
-								Provided project leadership to eight employees for project production
+								 Provided project leadership to eight employees for project production
 							</li>
 						</ul>
 					</p>
@@ -66,6 +66,17 @@ class Main extends React.Component {
 					<span className="image main"><img src={pic03} alt="" /></span>
 					<p>
 						<h4>Build-a-Burger</h4>
+						<ul>
+							<li>
+								Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase
+							</li>
+						</ul>
+						<ul className="icons">
+							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" className="icon fa-server"><span
+								className="label">Live Version</span></a></li>
+							<li><a href="https://github.com/demersaj/build-a-burger" className="icon fa-github"><span
+								className="label">Live Version</span></a></li>
+						</ul>
 					</p>
 					{close}
 				</article>
@@ -96,7 +107,7 @@ class Main extends React.Component {
 						<li><a href="https://www.linkedin.com/in/andrew-demers/" className="icon fa-linkedin"><span
 							className="label">Twitter</span></a></li>
 						<li><a href="https://github.com/demersaj" className="icon fa-github"><span
-							className="label">Facebook</span></a></li>
+							className="label">Github</span></a></li>
 						<li><a href="mailto: andrew.demers91@gmail.com" className="icon fa-envelope"><span
 							className="label">Email</span></a></li>
 						<li><a href="https://www.instagram.com/druskeyy/" className="icon fa-instagram"><span
