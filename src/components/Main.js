@@ -16,8 +16,19 @@ class Main extends Component {
 		this.setState({ [event.target.name]: event.target.value });
 	};
 
-	submitHandler = ( event ) => {
+	clearForm = () => {
+		this.setState({
+			name: '',
+			email: '',
+			message: ''
+		});
+	};
+
+	handleSubmit = ( event ) => {
 		event.preventDefault();
+
+		// preserve initial state
+		this.baseState = this.state;
 
 		const formParams = {
 			fromName: this.state.name,
@@ -31,15 +42,12 @@ class Main extends Component {
 				console.log('Success');
 			})
 			.catch(err => console.error('Failed to send feedback. Error: ', err));
-	};
 
-	onClickHandler = () => {
-		this.setState({ redirect: true });
+		// reset state
+		this.clearForm();
 	};
 
 	render() {
-		if (this.state.redirect) {
-		}
 		const { name, email, message } = this.state;
 
 		let close = <div className="close" onClick={() => {
@@ -58,7 +66,7 @@ class Main extends Component {
 					<p>I am an experienced mechanical engineer looking to transition to a software engineering role.
 						I have worked in the technology, communications, and fabrication industries in a variety of
 						roles.
-						I have experience in C, C++, React/Redux, and Python, and I love learning new technologies.</p>
+						I have experience in C, C++, React/Redux, and Python, and I enjoy learning new technologies.</p>
 					{close}
 				</article>
 
@@ -66,39 +74,39 @@ class Main extends Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
-						<h4>Lead Engineer @ Midas Green Tech</h4>
-						Jan 2018 - Dec 2018
-						<ul>
-							<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
-							<li>Responsible for the final specifications, tolerance analysis, and design of all company
-								products
-							</li>
-							<li>Created Python scripts to read and parse data to calculate ROI for different
-								cryptocurrencies
-							</li>
-						</ul>
+					<h4>Lead Engineer @ Midas Green Tech</h4>
+					Jan 2018 - Dec 2018
+					<ul>
+						<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
+						<li>Responsible for the final specifications, tolerance analysis, and design of all company
+							products
+						</li>
+						<li>Created Python scripts to read and parse data to calculate ROI for different
+							cryptocurrencies
+						</li>
+					</ul>
 
-						<h4>Project Manager @ Scientific Machine and Welding</h4>
-						July 2017 - Dec. 2017
-						<ul>
-							<li>
-								Oversaw the company's most expensive contract ($10 million+)
-							</li>
-							<li>
-								Provided project leadership to eight employees for project production
-							</li>
-						</ul>
+					<h4>Project Manager @ Scientific Machine and Welding</h4>
+					July 2017 - Dec. 2017
+					<ul>
+						<li>
+							Oversaw the company's most expensive contract ($10 million+)
+						</li>
+						<li>
+							Provided project leadership to eight employees for project production
+						</li>
+					</ul>
 
-						<h4>Site Engineer @ Great Lakes Dredge and Dock</h4>
-						Nov 2016 - July 2017
-						<ul>
-							<li>
-								Organized and conducted hydrographic, land, and beach surveys using Hypack and Hysweep
-							</li>
-							<li>
-								Used VBA to automatically import and organize large amount of dredge data for analysis
-							</li>
-						</ul>
+					<h4>Site Engineer @ Great Lakes Dredge and Dock</h4>
+					Nov 2016 - July 2017
+					<ul>
+						<li>
+							Organized and conducted hydrographic, land, and beach surveys using Hypack and Hysweep
+						</li>
+						<li>
+							Used VBA to automatically import and organize large amount of dredge data for analysis
+						</li>
+					</ul>
 					{close}
 				</article>
 
@@ -106,35 +114,35 @@ class Main extends Component {
 				         className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Projects</h2>
-						<h4>Build-a-Burger</h4>
-						<ul className="icons">
-							<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
-							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target="_blank"
-							       className="icon fa-external-link"><span
-								className="label">Live Version</span></a></li>
-							<li><a href="https://github.com/demersaj/build-a-burger" target="_blank"
-							       className="icon fa-github"><span
-								className="label">Github</span></a></li>
-						</ul>
+					<h4>Build-a-Burger</h4>
+					<ul className="icons">
+						<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
+						<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target="_blank"
+						       className="icon fa-external-link"><span
+							className="label">Live Version</span></a></li>
+						<li><a href="https://github.com/demersaj/build-a-burger" target="_blank"
+						       className="icon fa-github"><span
+							className="label">Github</span></a></li>
+					</ul>
 
-						<h4>Small Shell</h4>
-						<ul className="icons">
-							<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O
-								processing
-							</li>
-							<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target="_blank"
-							       className="icon fa-github"><span
-								className="label">Github</span></a></li>
-						</ul>
+					<h4>Small Shell</h4>
+					<ul className="icons">
+						<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O
+							processing
+						</li>
+						<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target="_blank"
+						       className="icon fa-github"><span
+							className="label">Github</span></a></li>
+					</ul>
 
-						<h4>Cyrptocurrency Price Tracker</h4>
-						<ul className="icons">
-							<li>Live alerts of cryptocurrency prices using Python for desktop notifications</li>
-							<br />
-							<li><a href="https://github.com/demersaj/Crypto-alert" target="_blank"
-							       className="icon fa-github"><span
-								className="label">Github</span></a></li>
-						</ul>
+					<h4>Cyrptocurrency Price Tracker</h4>
+					<ul className="icons">
+						<li>Live alerts of cryptocurrency prices using Python for desktop notifications</li>
+						<br />
+						<li><a href="https://github.com/demersaj/Crypto-alert" target="_blank"
+						       className="icon fa-github"><span
+							className="label">Github</span></a></li>
+					</ul>
 					{close}
 				</article>
 
@@ -142,7 +150,7 @@ class Main extends Component {
 				         className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Contact</h2>
-					<form onSubmit={this.submitHandler}>
+					<form onSubmit={this.handleSubmit}>
 						<div className="field half first">
 							<label htmlFor="name">Name</label>
 							<input
@@ -175,8 +183,14 @@ class Main extends Component {
 							<li><input
 								type="submit"
 								value="Send Message"
-								className="special" /></li>
-							<li><input type="reset" value="Reset" /></li>
+								className="special"
+								onClick={this.props.onCloseArticle} />
+							</li>
+							<li><input
+								type="reset"
+								value="Reset"
+								onClick={this.clearForm} />
+							</li>
 						</ul>
 					</form>
 					<ul className="icons">
