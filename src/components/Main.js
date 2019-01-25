@@ -32,7 +32,6 @@ class Main extends React.Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
-					<span className="image main"><img src={pic02} alt="" /></span>
 					<p>
 						<h4>Lead Engineer @ Midas Green Tech</h4>
 						Jan 2018 - Dec 2018
@@ -45,6 +44,7 @@ class Main extends React.Component {
 								cryptocurrencies
 							</li>
 						</ul>
+
 						<h4>Project Manager @ Scientific Machine and Welding</h4>
 						July 2017 - Dec. 2017
 						<ul>
@@ -55,6 +55,17 @@ class Main extends React.Component {
 								 Provided project leadership to eight employees for project production
 							</li>
 						</ul>
+
+						<h4>Site Engineer @ Great Lakes Dredge and Dock</h4>
+						Nov 2016 - July 2017
+						<ul>
+							<li>
+								Organized and conducted hydrographic, land, and beach surveys using Hypack and Hysweep
+							</li>
+							<li>
+								Used VBA to automatically import and organize large amount of dredge data for analysis
+							</li>
+						</ul>
 					</p>
 					{close}
 				</article>
@@ -63,19 +74,29 @@ class Main extends React.Component {
 				         className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Projects</h2>
-					<span className="image main"><img src={pic03} alt="" /></span>
 					<p>
 						<h4>Build-a-Burger</h4>
-						<ul>
-							<li>
-								Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase
-							</li>
-						</ul>
 						<ul className="icons">
-							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" className="icon fa-server"><span
+							<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
+							<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target ="_blank" className="icon fa-external-link"><span
 								className="label">Live Version</span></a></li>
-							<li><a href="https://github.com/demersaj/build-a-burger" className="icon fa-github"><span
-								className="label">Live Version</span></a></li>
+							<li><a href="https://github.com/demersaj/build-a-burger" target ="_blank" className="icon fa-github"><span
+								className="label">Github</span></a></li>
+						</ul>
+
+						<h4>Small Shell</h4>
+						<ul className="icons">
+							<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O processing</li>
+							<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target ="_blank" className="icon fa-github"><span
+								className="label">Github</span></a></li>
+						</ul>
+
+						<h4>Cyrptocurrency Price Tracker</h4>
+						<ul className="icons">
+							<li>Live alerts of cryptocurrency prices using Python for desktop notifications</li>
+							<br/>
+							<li><a href="https://github.com/demersaj/Crypto-alert" target ="_blank" className="icon fa-github"><span
+								className="label">Github</span></a></li>
 						</ul>
 					</p>
 					{close}
@@ -104,13 +125,13 @@ class Main extends React.Component {
 						</ul>
 					</form>
 					<ul className="icons">
-						<li><a href="https://www.linkedin.com/in/andrew-demers/" className="icon fa-linkedin"><span
+						<li><a href="https://www.linkedin.com/in/andrew-demers/" target ="_blank" className="icon fa-linkedin"><span
 							className="label">Twitter</span></a></li>
-						<li><a href="https://github.com/demersaj" className="icon fa-github"><span
+						<li><a href="https://github.com/demersaj" target ="_blank" className="icon fa-github"><span
 							className="label">Github</span></a></li>
-						<li><a href="mailto: andrew.demers91@gmail.com" className="icon fa-envelope"><span
+						<li><a href="mailto: andrew.demers91@gmail.com" target ="_blank" className="icon fa-envelope"><span
 							className="label">Email</span></a></li>
-						<li><a href="https://www.instagram.com/druskeyy/" className="icon fa-instagram"><span
+						<li><a href="https://www.instagram.com/druskeyy/" target ="_blank" className="icon fa-instagram"><span
 							className="label">Instagram</span></a></li>
 
 					</ul>
