@@ -63,8 +63,9 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am an experienced mechanical engineer looking to transition to a software engineering role.
-						I have worked in the technology, communications, and fabrication industries in a variety of
+					<p>I am a web developer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and
+						 am almost finished with my B.S. in Computer Science.
+						I have worked in the financial, technology, and fabrication industries in a variety of
 						roles.
 						I have experience in C, C++, React/Redux, and Python, and I enjoy learning new technologies.</p>
 					{close}
@@ -74,6 +75,19 @@ class Main extends Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
+					<h4>Web Developer @ OroSolutions, LLC</h4>
+					Mar 2019 - Present
+					<ul>
+						<li>
+							Continuously improve and develop web applications to assist the accounting team in preparation
+							and delivery of web-based financial statements
+						</li>
+						<li>
+							Enhance the company’s automated reporting platform by improving report generation controls
+							using a variety of APIs
+						</li>
+					</ul>
+
 					<h4>Lead Engineer @ Midas Green Tech</h4>
 					Jan 2018 - Dec 2018
 					<ul>
@@ -94,17 +108,6 @@ class Main extends Component {
 						</li>
 						<li>
 							Provided project leadership to eight employees for project production
-						</li>
-					</ul>
-
-					<h4>Site Engineer @ Great Lakes Dredge and Dock</h4>
-					Nov 2016 - July 2017
-					<ul>
-						<li>
-							Organized and conducted hydrographic, land, and beach surveys using Hypack and Hysweep
-						</li>
-						<li>
-							Used VBA to automatically import and organize large amount of dredge data for analysis
 						</li>
 					</ul>
 					{close}
