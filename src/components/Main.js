@@ -67,7 +67,7 @@ class Main extends Component {
 						 am almost finished with my B.S. in Computer Science.
 						I have worked in the financial, technology, and fabrication industries in a variety of
 						roles.
-						I have experience in C, C++, React/Redux, and Python, and I enjoy learning new technologies.</p>
+						I have experience in C#, C++, Javascript, HTML5/CSS3, React, and Python, and I enjoy learning new technologies.</p>
 					{close}
 				</article>
 
