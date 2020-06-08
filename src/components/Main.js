@@ -63,11 +63,10 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am a web developer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and
-						 am almost finished with my B.S. in Computer Science.
+					<p>I am a web developer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and in Computer Science.
 						I have worked in the financial, technology, and fabrication industries in a variety of
 						roles.
-						I have experience in C#, C++, Javascript, HTML5/CSS3, React, and Python, and I enjoy learning new technologies.</p>
+						I have experience in C, C++, Javascript, HTML5/CSS3, React, and Python, and I enjoy learning new technologies.</p>
 					{close}
 				</article>
 
@@ -75,8 +74,21 @@ class Main extends Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
+					<h4>Software Engineer @ Ultra Electronics</h4>
+					Nov 2019 - Present
+					<ul>
+						<li>
+							Responsible for the design, modification, implementation, and integration of software programs
+							to meet the requirements and constraints of the customer scope of work
+						</li>
+						<li>
+							Install, integrate, and test virtualized hardware and software components within the company’s
+							products
+						</li>
+					</ul>
+
 					<h4>Web Developer @ OroSolutions, LLC</h4>
-					Mar 2019 - Present
+					Mar 2019 - Nov 2019
 					<ul>
 						<li>
 							Continuously improve and develop web applications to assist the accounting team in preparation
