@@ -63,8 +63,8 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am a web developer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and in Computer Science.
-						I have worked in the financial, technology, and fabrication industries in a variety of
+					<p>I am a software engineer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and in Computer Science.
+						I have worked in the defense, financial, technology, and fabrication industries in a variety of
 						roles.
 						I have experience in C, C++, Javascript, HTML5/CSS3, React, and Python, and I enjoy learning new technologies.</p>
 					{close}
@@ -129,6 +129,22 @@ class Main extends Component {
 				         className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Projects</h2>
+					<h4>Schedule-It</h4>
+					<ul className="icons">
+						<li>Scheduling web app supporting user authentication made using Django, React, and SQLite</li>
+						<li><a href="https://github.com/demersaj/schedule-it" target="_blank"
+						       className="icon fa-github"><span
+							className="label">Github</span></a></li>
+					</ul>
+
+					<h4>CS493 Final Project</h4>
+					<ul className="icons">
+						<li>RESTful API using user authentication made using Node.js, Docker, Google Cloud, and Auth 0</li>
+						<li><a href="https://github.com/demersaj/cs493-final-project" target="_blank"
+						       className="icon fa-github"><span
+							className="label">Github</span></a></li>
+					</ul>
+
 					<h4>Build-a-Burger</h4>
 					<ul className="icons">
 						<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
@@ -136,16 +152,6 @@ class Main extends Component {
 						       className="icon fa-external-link"><span
 							className="label">Live Version</span></a></li>
 						<li><a href="https://github.com/demersaj/build-a-burger" target="_blank"
-						       className="icon fa-github"><span
-							className="label">Github</span></a></li>
-					</ul>
-
-					<h4>Small Shell</h4>
-					<ul className="icons">
-						<li>Mini shell in C to demonstrate knowledge of Linux process management, signals, and I/O
-							processing
-						</li>
-						<li><a href="https://github.com/demersaj/CS344/tree/master/Program3" target="_blank"
 						       className="icon fa-github"><span
 							className="label">Github</span></a></li>
 					</ul>
