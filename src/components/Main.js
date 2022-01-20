@@ -63,10 +63,11 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am a software engineer with a mechanical engineering background. I have a B.S. in Mechanical Engineering and in Computer Science.
-						I have worked in the defense, financial, technology, and fabrication industries in a variety of
+					<p>I am a project manager with a software and mechanical engineering background. I have a B.S. in Mechanical
+						Engineering and in Computer Science, and I am currently working on my MBA in Data Analytics.
+						I have worked in the technology, defense, financial, and fabrication industries in a variety of
 						roles.
-						I have experience in C, C++, Javascript, HTML5/CSS3, React, and Python, and I enjoy learning new technologies.</p>
+						I have experience in C, C++, Javascript, React, and Python, and I have a strong interest in product management.</p>
 					{close}
 				</article>
 
@@ -74,8 +75,27 @@ class Main extends Component {
 				         className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
+
+					<h4>Project Manager II, Strategic Projects @ FlashParking</h4>
+					Jun. 2021  - Present
+					<ul>
+						<li> Current focus on new construction and special software integration projects  </li>
+						<li> Work with development, engineering, and software to complete unique, one-off projects	</li>
+						<li> Create process improvement tools, including a dynamic implementation timeline that can be
+							adapted to numerous types of project and deliverable requirements</li>
+					</ul>
+
+					<h4>Project Manager I @ FlashParking</h4>
+					Sept. 2020 - Jun. 2021
+					<ul>
+						<li> Complete projects on time and on budget while managing multiple projects simultaneously </li>
+						<li> Hosted project kickoff calls, ordered all required equipment, coordinated shipping, and scheduled
+							installation of $2.2 million+ in FlashPARCS equipment
+						</li>
+					</ul>
+
 					<h4>Software Engineer @ Ultra Electronics</h4>
-					Nov 2019 - Present
+					Nov 2019 - July 2021
 					<ul>
 						<li>
 							Responsible for the design, modification, implementation, and integration of software programs
@@ -99,7 +119,6 @@ class Main extends Component {
 							using a variety of APIs
 						</li>
 					</ul>
-
 					<h4>Lead Engineer @ Midas Green Tech</h4>
 					Jan 2018 - Dec 2018
 					<ul>
@@ -111,15 +130,15 @@ class Main extends Component {
 							cryptocurrencies
 						</li>
 					</ul>
-
-					<h4>Project Manager @ Scientific Machine and Welding</h4>
-					July 2017 - Dec. 2017
+					<h4>Lead Engineer @ Midas Green Tech</h4>
+					Jan 2018 - Dec 2018
 					<ul>
-						<li>
-							Oversaw the company's most expensive contract ($10 million+)
+						<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
+						<li>Responsible for the final specifications, tolerance analysis, and design of all company
+							products
 						</li>
-						<li>
-							Provided project leadership to eight employees for project production
+						<li>Created Python scripts to read and parse data to calculate ROI for different
+							cryptocurrencies
 						</li>
 					</ul>
 					{close}
