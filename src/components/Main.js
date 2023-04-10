@@ -63,11 +63,12 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am a project manager with a software and mechanical engineering background. I have a B.S. in Mechanical
-						Engineering and in Computer Science, and I am currently working on my MBA in Data Analytics.
+					<p>I am a product manager with a software and mechanical engineering background. I have a B.S. in Mechanical
+						Engineering and in Computer Science, as well as an MBA with a focus in Data Analytics.
 						I have worked in the technology, defense, financial, and fabrication industries in a variety of
-						roles.
-						I have experience in C, C++, Javascript, React, and Python, and I have a strong interest in product management.</p>
+						roles. 
+					</p>
+						<p>I have experience in C++, Javascript, React, and Python, and I love learning new technologies. I enjoy using data-driven methods to create the best products possible.</p>
 					{close}
 				</article>
 
@@ -76,22 +77,20 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
 
-					<h4>Project Manager II, Strategic Projects @ FlashParking</h4>
-					Jun. 2021  - Present
+					<h4>Associate AI Product Manager @ FlashParking</h4>
+					July 2022 - Present
+					<ul>
+						<li> Manage bottlenecks, provide escalation management, anticipate and make trade-offs, and maximize business benefit while building great customer experiences for the Flash computer vision program </li>
+						<li> Work with key internal stakeholders including Analytics, Design, Engineering, Sales, Operations, and Customer Success to develop accretive value features and products
+						</li>
+					</ul>
+					<h4>Project Manager  @ FlashParking</h4>
+					Sept. 2020 - July 2022
 					<ul>
 						<li> Current focus on new construction and special software integration projects  </li>
 						<li> Work with development, engineering, and software to complete unique, one-off projects	</li>
 						<li> Create process improvement tools, including a dynamic implementation timeline that can be
 							adapted to numerous types of project and deliverable requirements</li>
-					</ul>
-
-					<h4>Project Manager I @ FlashParking</h4>
-					Sept. 2020 - Jun. 2021
-					<ul>
-						<li> Complete projects on time and on budget while managing multiple projects simultaneously </li>
-						<li> Hosted project kickoff calls, ordered all required equipment, coordinated shipping, and scheduled
-							installation of $2.2 million+ in FlashPARCS equipment
-						</li>
 					</ul>
 
 					<h4>Software Engineer @ Ultra Electronics</h4>
@@ -117,17 +116,6 @@ class Main extends Component {
 						<li>
 							Enhance the company’s automated reporting platform by improving report generation controls
 							using a variety of APIs
-						</li>
-					</ul>
-					<h4>Lead Engineer @ Midas Green Tech</h4>
-					Jan 2018 - Dec 2018
-					<ul>
-						<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
-						<li>Responsible for the final specifications, tolerance analysis, and design of all company
-							products
-						</li>
-						<li>Created Python scripts to read and parse data to calculate ROI for different
-							cryptocurrencies
 						</li>
 					</ul>
 					<h4>Lead Engineer @ Midas Green Tech</h4>
