@@ -1,6 +1,5 @@
 import React, { Component, useRef } from 'react';
 import PropTypes from 'prop-types';
-import { useForm, handleSubmit } from '@formspree/react';
 import emailjs from 'emailjs-com';
 
 import pic01 from '../images/pic01.jpg';
@@ -49,7 +48,6 @@ class Main extends Component {
 			this.clearForm();
 		};
 
-		
 
 
 	render() {
@@ -68,12 +66,24 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>I am a product manager with a software and mechanical engineering background. I have a B.S. in Mechanical
-						Engineering and in Computer Science, as well as an MBA with a focus in Data Analytics.
-						I have worked in the technology, defense, financial, and fabrication industries in a variety of
-						roles. 
+					<p>As a highly motivated and results-driven product manager, I am passionate about creating innovative and user-centric products that solve real-world problems. 
+						With a proven track record of leading cross-functional teams and delivering successful products to market, I am confident in my ability to drive growth and impact.
 					</p>
-						<p>I have experience in C++, Javascript, React, and Python, and I love learning new technologies. I enjoy using data-driven methods to create the best products possible.</p>
+					<p>
+						My journey into product management began with a strong foundation in computer science and mechanical engineering. 
+						I developed expertise in Agile software development and worked as a software engineer before transitioning into project management. 
+						This technical background allows me to work closely with engineers and designers, ensuring that products are not only feasible but also scalable and maintainable.
+					</p>
+					<p>
+						Throughout my career, I have participated in the development of complex products and features, focusing on data-driven decision-making and user feedback. 
+						I am experienced in developing and executing product roadmaps, defining product requirements, conducting market research, and driving product adoption.
+						I have a deep understanding of agile development methodologies and have successfully led teams using Scrum and Kanban.
+					</p>
+					<p>
+						Above all, I am dedicated to creating products that solve real problems and make a difference in people's lives. 
+						I thrive in a collaborative and fast-paced environment and am always looking for new challenges to tackle. 
+						If you are looking for a driven and experienced product manager to join your team, let's connect!
+					</p>
 					{close}
 				</article>
 
