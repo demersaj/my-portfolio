@@ -1,6 +1,7 @@
-import React, { Component } from 'react';
+import React, { Component, useRef } from 'react';
 import PropTypes from 'prop-types';
-import * as emailjs from 'emailjs-com';
+import { useForm, handleSubmit } from '@formspree/react';
+import emailjs from 'emailjs-com';
 
 import pic01 from '../images/pic01.jpg';
 
@@ -37,15 +38,19 @@ class Main extends Component {
 			message: this.state.message
 		};
 
-		emailjs.send('mailgun', 'my_portfolio_template', formParams, 'user_uABJMRa0kF9MP0dQp0ik9')
-			.then(res => {
-				console.log('Success');
-			})
-			.catch(err => console.error('Failed to send feedback. Error: ', err));
+		emailjs.sendForm('service_omsxbdt', 'template_b2byauk', event.target, 'n4exQ0f8fRzWGOwzv')
+      		.then((result) => {
+          		console.log('Success');
+      		}, (error) => {
+          	console.log(error.text);
+      	});
 
-		// reset state
-		this.clearForm();
-	};
+			// reset state
+			this.clearForm();
+		};
+
+		
+
 
 	render() {
 		const { name, email, message } = this.state;
@@ -230,7 +235,7 @@ class Main extends Component {
 						<li><a href="mailto: andrew.demers91@gmail.com" target="_blank"
 						       className="icon fa-envelope"><span
 							className="label">Email</span></a></li>
-						<li><a href="https://www.instagram.com/druskeyy/" target="_blank" className="icon fa-instagram"><span
+						<li><a href="https://www.instagram.com/drewskeey/" target="_blank" className="icon fa-instagram"><span
 							className="label">Instagram</span></a></li>
 
 					</ul>
