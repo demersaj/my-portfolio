@@ -93,56 +93,38 @@ class Main extends Component {
 					<h2 className="major">Where I've Worked</h2>
 
 					<h4>Associate AI Product Manager @ FlashParking</h4>
-					July 2022 - Present
+					July 2022 - April 2023
 					<ul>
-						<li> Manage bottlenecks, provide escalation management, anticipate and make trade-offs, and maximize business benefit while building great customer experiences for the Flash computer vision program </li>
-						<li> Work with key internal stakeholders including Analytics, Design, Engineering, Sales, Operations, and Customer Success to develop accretive value features and products
-						</li>
+						<li>Manage bottlenecks, provide escalation management, anticipate and make trade-offs, and maximize business benefit while building innovative customer experiences for the Flash computer vision program</li>
+						<li> Work collaboratively with key internal stakeholders including Analytics, Design, Engineering, Sales, Operations, and Customer Success teams to develop accretive value features for SaaS products</li>
+						<li>Define and manage the product roadmap and product requirements using data based on market research, analysis of competitive metrics, and customer insight ></li>
 					</ul>
-					<h4>Project Manager  @ FlashParking</h4>
+					<h4>Project Manager I & II, Strategic Projects @ FlashParking</h4>
 					Sept. 2020 - July 2022
 					<ul>
-						<li> Current focus on new construction and special software integration projects  </li>
-						<li> Work with development, engineering, and software to complete unique, one-off projects	</li>
-						<li> Create process improvement tools, including a dynamic implementation timeline that can be
-							adapted to numerous types of project and deliverable requirements</li>
+						<li> Develop and control project plans, monitor project progress, identify and mitigate risks, and ensure effective communication and collaboration among cross-functional teams for B2B2C engineering projects  </li>
+						<li> Led end-to-end project management using Agile principles for multiple software development initiatives, ensuring on-time delivery, meeting budgetary constraints, and exceeding client expectations	</li>
 					</ul>
 
 					<h4>Software Engineer @ Ultra Electronics</h4>
 					Nov 2019 - July 2021
 					<ul>
-						<li>
-							Responsible for the design, modification, implementation, and integration of software programs
-							to meet the requirements and constraints of the customer scope of work
-						</li>
-						<li>
-							Install, integrate, and test virtualized hardware and software components within the company’s
-							products
-						</li>
+						<li>Improve the design, usability, implementation, and integration of software programs using Agile principles to meet the requirements and constraints of the customer's scope of work</li>
+						<li>Install, integrate, and test virtualized hardware and software components within the company’s product line</li>
 					</ul>
 
 					<h4>Web Developer @ OroSolutions, LLC</h4>
 					Mar 2019 - Nov 2019
 					<ul>
-						<li>
-							Continuously improve and develop web applications to assist the accounting team in preparation
-							and delivery of web-based financial statements
-						</li>
-						<li>
-							Enhance the company’s automated reporting platform by improving report generation controls
-							using a variety of APIs
-						</li>
+						<li>Continuously develop and improve web applications to assist the accounting team in the preparation and delivery of automated, web-based financial statements</li>
+						<li>Enhance the company’s automated reporting platform by improving report generation controls using a variety of APIs</li>
 					</ul>
 					<h4>Lead Engineer @ Midas Green Tech</h4>
 					Jan 2018 - Dec 2018
 					<ul>
 						<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
-						<li>Responsible for the final specifications, tolerance analysis, and design of all company
-							products
-						</li>
-						<li>Created Python scripts to read and parse data to calculate ROI for different
-							cryptocurrencies
-						</li>
+						<li>Responsible for the final specifications, tolerance analysis, and design of all company	products</li>
+						<li>Created Python scripts to read and parse data to calculate ROI for different cryptocurrencies</li>
 					</ul>
 					{close}
 				</article>
