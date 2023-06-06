@@ -97,7 +97,7 @@ class Main extends Component {
 					<ul>
 						<li>Manage bottlenecks, provide escalation management, anticipate and make trade-offs, and maximize business benefit while building innovative customer experiences for the Flash computer vision program</li>
 						<li> Work collaboratively with key internal stakeholders including Analytics, Design, Engineering, Sales, Operations, and Customer Success teams to develop accretive value features for SaaS products</li>
-						<li>Define and manage the product roadmap and product requirements using data based on market research, analysis of competitive metrics, and customer insight ></li>
+						<li>Define and manage the product roadmap and product requirements using data based on market research, analysis of competitive metrics, and customer insight </li>
 					</ul>
 					<h4>Project Manager I & II, Strategic Projects @ FlashParking</h4>
 					Sept. 2020 - July 2022
