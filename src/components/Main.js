@@ -92,6 +92,13 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
 
+					<h4> Software Project Manager @ Apptronik</h4>
+					June 2023 - Present
+					<ul>
+						<li>Work with external stakeholders to prioritize product features and capabilities, create a shared brain across larger teams to empower independent decision-making, and outline what success looks like for the team</li>	
+						<li>Lead software projects for a team of engineers developing a general-purpose, humanoid robo</li>
+						<li>Responsible for end-to-end delivery of software, establishing project plans, and ensuring software is delivered on time and within budget.</li>
+					</ul>
 					<h4>Associate AI Product Manager @ FlashParking</h4>
 					July 2022 - April 2023
 					<ul>
