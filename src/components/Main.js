@@ -139,41 +139,27 @@ class Main extends Component {
 				<article id="about"
 				         className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`}
 				         style={{ display: 'none' }}>
-					<h2 className="major">Projects</h2>
-					<h4>Schedule-It</h4>
-					<ul className="icons">
-						<li>Scheduling web app supporting user authentication made using Django, React, and SQLite</li>
-						<li><a href="https://github.com/demersaj/schedule-it" target="_blank"
-						       className="icon fa-github"><span
-							className="label">Github</span></a></li>
+					<h2 className="major">Certifications and Skills</h2>
+					<h4>Certified Scrum Product Owner (CSPO) from Scrum Alliance</h4>
+					June 2022
+					<ul>
+						<li>Develop a comprehensive understanding of the Scrum framework from a product owner's perspective</li>
+						<li>Focus on effective stakeholder collaboration, development teams, and Scrum Masters</li>
+						<li>Understand backlog optimization, creation of useful user stories, and maximizing busines value</li>
 					</ul>
 
-					<h4>CS493 Final Project</h4>
-					<ul className="icons">
-						<li>RESTful API using user authentication made using Node.js, Docker, Google Cloud, and Auth 0</li>
-						<li><a href="https://github.com/demersaj/cs493-final-project" target="_blank"
-						       className="icon fa-github"><span
-							className="label">Github</span></a></li>
+					<h4>Project Management Professional (PMP) from PMI</h4>
+					April 2022
+					<ul>
+						<li>Understand intiating, planning, executing, monitoring and controlling, and closing of an Agile project</li>
+						<li>Optimize the project life cycle using predictive, iterative, incremental, or adaptive processes</li>
+						<li>Focus on strategic alignment of projects to align with the objectives of the organization</li>
 					</ul>
 
-					<h4>Build-a-Burger</h4>
-					<ul className="icons">
-						<li>Dynamic burger building app created using React/Redux, Axios, Webpack, and Firebase</li>
-						<li><a href="https://build-a-burger-399bc.firebaseapp.com/" target="_blank"
-						       className="icon fa-external-link"><span
-							className="label">Live Version</span></a></li>
-						<li><a href="https://github.com/demersaj/build-a-burger" target="_blank"
-						       className="icon fa-github"><span
-							className="label">Github</span></a></li>
-					</ul>
-
-					<h4>Cyrptocurrency Price Tracker</h4>
-					<ul className="icons">
-						<li>Live alerts of cryptocurrency prices using Python for desktop notifications</li>
-						<br />
-						<li><a href="https://github.com/demersaj/Crypto-alert" target="_blank"
-						       className="icon fa-github"><span
-							className="label">Github</span></a></li>
+					<h4>Technical Skills</h4>
+					<ul>
+						<li><b>Languages:</b> Python3, javascript ES6+, SQL, React, MongoDB/JSON</li>
+						<li><b>Tools and Environments:</b> Redash, Looker, Tableau, Jira, Postman, AWS, Figma, Miro</li>
 					</ul>
 					{close}
 				</article>

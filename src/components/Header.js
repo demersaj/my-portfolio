@@ -24,7 +24,7 @@ const Header = ( props ) => (
 				}}>Work</a></li>
 				<li><a href="javascript:;" onClick={() => {
 					props.onOpenArticle('about');
-				}}>Projects</a></li>
+				}}>Skills</a></li>
 				<li><a href="javascript:;" onClick={() => {
 					props.onOpenArticle('contact');
 				}}>Contact</a></li>
