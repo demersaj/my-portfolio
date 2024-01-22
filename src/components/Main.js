@@ -96,8 +96,8 @@ class Main extends Component {
 					June 2023 - Present
 					<ul>
 						<li>Work with external stakeholders to prioritize product features and capabilities, create a shared brain across larger teams to empower independent decision-making, and outline what success looks like for the team</li>	
-						<li>Lead a team of engineers in developing 0 to 1 general-purpose humanoid robotic products for several government agencies, resulting in over $15 million in revenue</li>
-						<li>Responsible for end-to-end delivery of software, establishing project plans, and implementing agile processes to improve productivity</li>
+						<li>Lead a team of 10 engineers in developing 0 to 1 general-purpose humanoid robotic products for several government agencies, resulting in over $15 million in revenue</li>
+						<li>Create product roadmaps, feature epics, user stories, and project plans based on established product vision, feedback from customers, and analysis of collected product data</li>
 					</ul>
 					<h4>Associate AI Product Manager @ FlashParking</h4>
 					July 2022 - April 2023
