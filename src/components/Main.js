@@ -109,8 +109,8 @@ class Main extends Component {
 					<h4>Project Manager I & II, Strategic Projects @ FlashParking</h4>
 					Sept. 2020 - July 2022
 					<ul>
-						<li> Develop and control project plans, monitor project progress, identify and mitigate risks, and ensure effective communication and collaboration among cross-functional teams for B2B2C engineering projects  </li>
-						<li> Led end-to-end project management using Agile principles for multiple software development initiatives, ensuring on-time delivery, meeting budgetary constraints, and exceeding client expectations	</li>
+						<li> Conduct new feature ideation with multiple customers to align with the organization's strategy and product roadmap</li>
+						<li> Lead end-to-end ownership of multiple B2B2C software development initiatives using Agile principles, ensuring on-time delivery, meeting budgetary constraints, and exceeding client expectations</li>
 					</ul>
 
 					<h4>Software Engineer @ Ultra Electronics</h4>
