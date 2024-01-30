@@ -109,7 +109,7 @@ class Main extends Component {
 					<h4>Project Manager I & II, Strategic Projects @ FlashParking</h4>
 					Sept. 2020 - July 2022
 					<ul>
-						<li> Conduct new feature ideation with multiple customers to align with the organization's vision and product roadmap</li>
+						<li> Collaborate with diverse customer groups to generate innovative ideas for new features, ensuring alignment with the organization's strategic objectives and product roadmap</li>
 						<li> Lead end-to-end ownership of multiple B2B2C software development initiatives using Agile principles, ensuring on-time delivery, meeting budgetary constraints, and exceeding client expectations</li>
 					</ul>
 
