@@ -92,8 +92,19 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
 
+					<h4>Techincal Product Manager</h4>
+					March 2024 - Present
+					<ul>
+						<li>Lead the full product cycle: from ideation, research, and prototyping, through to design, execution, launch,
+						and post-launch optimization</li>
+						<li>Partner with engineering, design, marketing, sales, and other teams to develop a cohesive product roadmap
+						and execute eﬀectively</li>
+						<li>Interface with customers and users and gather feedback to inform product refinements and ongoing
+						development</li>
+					</ul>
+
 					<h4> Software Project Manager @ Apptronik</h4>
-					June 2023 - Present
+					June 2023 - February 2024
 					<ul>
 						<li>Work with external stakeholders to prioritize product features and capabilities, create a shared brain across larger teams to empower independent decision-making, and outline what success looks like for the team</li>	
 						<li>Lead a team of 10 engineers in developing 0 to 1 general-purpose humanoid robotic products for several government agencies, resulting in over $15 million in revenue</li>
@@ -125,13 +136,6 @@ class Main extends Component {
 					<ul>
 						<li>Continuously develop and improve web applications to assist the accounting team in the preparation and delivery of automated, web-based financial statements</li>
 						<li>Enhance the company’s automated reporting platform by improving report generation controls using a variety of APIs</li>
-					</ul>
-					<h4>Lead Engineer @ Midas Green Tech</h4>
-					Jan 2018 - Dec 2018
-					<ul>
-						<li>Led a diverse team in the design of immersion cooling and supporting systems</li>
-						<li>Responsible for the final specifications, tolerance analysis, and design of all company	products</li>
-						<li>Created Python scripts to read and parse data to calculate ROI for different cryptocurrencies</li>
 					</ul>
 					{close}
 				</article>
