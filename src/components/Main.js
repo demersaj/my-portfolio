@@ -92,7 +92,7 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Where I've Worked</h2>
 
-					<h4>Techincal Product Manager</h4>
+					<h4>Techincal Product Manager @ webAI</h4>
 					March 2024 - Present
 					<ul>
 						<li>Lead the full product cycle: from ideation, research, and prototyping, through to design, execution, launch,
