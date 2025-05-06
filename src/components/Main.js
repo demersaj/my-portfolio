@@ -156,8 +156,8 @@ class Main extends Component {
 
 					<h4>Technical Skills</h4>
 					<ul>
-						<li><b>Languages:</b> Python3, javascript ES6+, SQL, React, MongoDB/JSON</li>
-						<li><b>Tools and Environments:</b> Redash, Looker, Tableau, Jira, Postman, AWS, Figma, Miro</li>
+						<li><b>Languages:</b> Python3, Javascript ES6+, SQL, React, MongoDB/JSON</li>
+						<li><b>Tools and Environments:</b> Statsig, Langchain, Looker, Tableau, Jira, Postman, AWS, Figma, Miro</li>
 					</ul>
 					{close}
 				</article>
