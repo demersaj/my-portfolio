@@ -66,23 +66,18 @@ class Main extends Component {
 				         style={{ display: 'none' }}>
 					<h2 className="major">Intro</h2>
 					<span className="image main"><img src={pic01} alt="" /></span>
-					<p>As a highly motivated and results-driven product manager, I am passionate about creating innovative and user-centric products that solve real-world problems. 
-						With a proven track record of leading cross-functional teams and delivering successful products to market, I am confident in my ability to drive growth and impact.
+					<p>I am a dedicated professional at the intersection of machine learning and product management, driven by a passion for building innovative, 
+						data-driven solutions that deliver meaningful impact. With a strong foundation in developing and deploying machine learning models, 
+						combined with strategic product management expertise, I excel at transforming complex technical concepts into scalable, user-centric products.
 					</p>
-					<p>
-						My journey into product management began with a strong foundation in computer science and mechanical engineering. 
-						I developed expertise in Agile software development and worked as a software engineer before transitioning into project management. 
-						This technical background allows me to work closely with engineers and designers, ensuring that products are not only feasible but also scalable and maintainable.
-					</p>
-					<p>
-						Throughout my career, I have participated in the development of complex products and features, focusing on data-driven decision-making and user feedback. 
-						I am experienced in developing and executing product roadmaps, defining product requirements, conducting market research, and driving product adoption.
-						I have a deep understanding of agile development methodologies and have successfully led teams using Scrum and Kanban.
-					</p>
-					<p>
+					<p>Throughout my career, I’ve led cross-functional teams to conceptualize, design, and deliver AI-powered solutions that solve real-world problems. 
+						I thrive in roles that challenge me to bridge the gap between technical teams and business objectives, whether it’s defining product roadmaps, 
+						managing stakeholder expectations, or deploying ML models into production environments.
+					</p>						
+					<p>I bring a unique ability to align cutting-edge machine learning capabilities with market needs, driving end-to-end product development cycles while fostering collaboration among engineers, data scientists, and designers. With a strong focus on delivering measurable results, I am committed to leveraging AI and machine learning to unlock new opportunities and shape the future of intelligent products.
 						Above all, I am dedicated to creating products that solve real problems and make a difference in people's lives. 
 						I thrive in a collaborative and fast-paced environment and am always looking for new challenges to tackle. 
-						If you are looking for a driven and experienced product manager to join your team, let's connect!
+						Let’s connect to discuss how we can innovate and create impactful solutions together!
 					</p>
 					{close}
 				</article>
@@ -95,12 +90,11 @@ class Main extends Component {
 					<h4>Technical Product Manager @ webAI</h4>
 					March 2024 - Present
 					<ul>
-						<li>Lead the full product cycle: from ideation, research, and prototyping, through to design, execution, launch,
-						and post-launch optimization</li>
-						<li>Partner with engineering, design, marketing, sales, and other teams to develop a cohesive product roadmap
-						and execute eﬀectively</li>
-						<li>Interface with customers and users and gather feedback to inform product refinements and ongoing
-						development</li>
+						<li>Led the end-to-end product lifecycle for a no-code machine learning platform, driving ideation, prototyping, development, and post-launch optimization to democratize AI for non-technical users.</li>
+						<li>Collaborated with engineering, design, and marketing teams to build a unified product roadmap, delivering 10+ high-impact features on schedule that increased user adoption</li>
+						<li>Conducted 100+ customer interviews and usability tests to refine the platform, translating feedback into intuitive UI/UX improvements that boosted customer satisfaction scores by 25%.</li>
+						<li>Spearheaded market research to identify trends in no-code AI/ML, positioning the platform as a leader in accessibility and scalability for SMBs and enterprise clients.</li>
+						<li>Defined KPIs (e.g., activation rate, model accuracy, deployment speed) and leveraged data-driven insights to prioritize backlog items, reducing time-to-market</li>
 					</ul>
 
 					<h4> Software Project Manager @ Apptronik</h4>
